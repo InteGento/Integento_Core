@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * This file is part of Integento_Core for Magento.
+ *
+ * @license MIT
+ * @author Darklg <darklg.blog@gmail.com> <@Darklg>
+ * @category Integento
+ * @package Integento_Core
+ * @copyright Copyright (c) 2016 Integento (http://github.com/InteGento)
+ */
+-->
+<config>
+  <modules>
+    <Integento_Core>
+      <version>0.1.0</version>
+    </Integento_Core>
+  </modules>
+  <global>
+    <resources>
+      <integento_core_setup>
+        <setup>
+          <module>Integento_Core</module>
+          <class>Mage_Core_Model_Resource_Setup</class>
+        </setup>
+        <connection>
+          <use>core_setup</use>
+        </connection>
+      </integento_core_setup>
+    </resources>
+  </global>
+</config>
